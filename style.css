@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousel-inner{
+    height: 550px;
+    width: 1100px;
+    margin-top: 10px;
+}
+
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.carousel-item h5{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: black;
+    margin: 0.5%;
+    color: white;
+}
+
+
+.service{
+    min-height: 100vh;
+    display: flex;
+    background: rgb(0, 113, 165);
+    background-size: cover;
+    background-position:center ;
+}
+ .heading1{
+    flex: 1 1 60rem;
+    padding: 4rem;
+    max-width: 55rem;
+    line-height: 1.3rem;
+ }
+
+ .heading1 h1{
+     color: white;
+     font-size: 2.2rem;
+     font-weight: 700;
+     margin-bottom: 2%;
+ }
+
+ .sub-heading h2{
+     font-size: 1.8rem;
+     font-family: 500;
+     color:rgb(255, 255, 255);
+ }
+
+ .sub-heading p{
+     color:white;
+ }
+
+ .nav-items{
+     margin:2rem;
+ }
+
+ .box {
+     width: 500px;
+    padding: 40px;
+    border-radius:12px;
+    position: absolute;
+    background: rgb(1, 84, 122);
+    text-align: center;
+    top: 120%;
+    left: 77%;
+transform: translate(-50%, -50%);
+box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+
+ }
+
+ .box h2{
+     color: white;
+     font-size: 1.5rem;
+     padding-bottom: 4%;
+ }
+
+ .box input[type = "name"], .box input[type="contact"]{
+     border:0;
+     background: none;
+     display: block;
+     margin: 20px auto;
+     text-align: center;
+     border: 3px solid #ffffff;
+     padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    transition: 0.4s;
+ }
+
+
+ .box input[type = "name"]:focus, .box input[type="contact"]:focus{
+     width: 330px;
+     border-color:  rgb(0, 174, 255);
+ }
+
+ .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid   rgb(0, 174, 255);
+    padding: 10px 30px;
+   outline: none;
+   color: white;
+   border-radius: 25px;
+   transition: 0.4s;
+   cursor: pointer;
+ }
+
+
+ .box input[type = "submit"]:hover{
+     background:rgb(0, 127, 185) ;
+     box-shadow: 0 0 8px rgb(0, 0, 0 );
+ }
+
